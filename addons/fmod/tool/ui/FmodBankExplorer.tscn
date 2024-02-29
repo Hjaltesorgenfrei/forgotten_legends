@@ -1,0 +1,118 @@
+[gd_scene load_steps=4 format=3 uid="uid://nr38urn226al"]
+
+[ext_resource type="Script" path="res://addons/fmod/tool/ui/FmodBankExplorer.gd" id="1_ekqus"]
+[ext_resource type="PackedScene" uid="uid://cppeyr1ke5wre" path="res://addons/fmod/tool/ui/EventParametersDisplay.tscn" id="2_uoyg8"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_3jkpq"]
+font_size = 25
+
+[node name="FmodBankExplorer" type="Window"]
+title = "Fmod banks explorer"
+initial_position = 2
+size = Vector2i(1440, 794)
+script = ExtResource("1_ekqus")
+
+[node name="Panel" type="Panel" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="HSplitContainer" type="HSplitContainer" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer/HSplitContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Tree" type="Tree" parent="VBoxContainer/HSplitContainer/ScrollContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="RightPanel" type="ScrollContainer" parent="VBoxContainer/HSplitContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/HSplitContainer/RightPanel"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/HSplitContainer/RightPanel/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 6
+
+[node name="TitleContainer" type="VBoxContainer" parent="VBoxContainer/HSplitContainer/RightPanel/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+
+[node name="PathTitleLabel" type="Label" parent="VBoxContainer/HSplitContainer/RightPanel/VBoxContainer/HBoxContainer/TitleContainer"]
+layout_mode = 2
+text = "Path: "
+
+[node name="GuidTitleLabel" type="Label" parent="VBoxContainer/HSplitContainer/RightPanel/VBoxContainer/HBoxContainer/TitleContainer"]
+layout_mode = 2
+text = "GUID: "
+
+[node name="ValueContainer" type="VBoxContainer" parent="VBoxContainer/HSplitContainer/RightPanel/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+
+[node name="PathLabel" type="Label" parent="VBoxContainer/HSplitContainer/RightPanel/VBoxContainer/HBoxContainer/ValueContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="GuidLabel" type="Label" parent="VBoxContainer/HSplitContainer/RightPanel/VBoxContainer/HBoxContainer/ValueContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="ButtonsContainer" type="VBoxContainer" parent="VBoxContainer/HSplitContainer/RightPanel/VBoxContainer/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="ParameterSectionSeparator" type="HSeparator" parent="VBoxContainer/HSplitContainer/RightPanel/VBoxContainer"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+
+[node name="ParametersLabel" type="Label" parent="VBoxContainer/HSplitContainer/RightPanel/VBoxContainer"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+text = "Parameters:"
+label_settings = SubResource("LabelSettings_3jkpq")
+
+[node name="EventParametersDisplay" parent="VBoxContainer/HSplitContainer/RightPanel/VBoxContainer" instance=ExtResource("2_uoyg8")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="SelectButton" type="Button" parent="VBoxContainer/HBoxContainer"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Select"
+
+[node name="CloseButton" type="Button" parent="VBoxContainer/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Close"
