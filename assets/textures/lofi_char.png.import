@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cv30y7we765ce"
-path="res://.godot/imported/lofi_font_big.png-56c14c8a49fd9f35c6f52a9f3b401f4d.ctex"
+uid="uid://c0e0rgs13ed47"
+path="res://.godot/imported/lofi_char.png-07f0c9f64604f5f20358d0bc44ddc32d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://textures/lofi_font_big.png"
-dest_files=["res://.godot/imported/lofi_font_big.png-56c14c8a49fd9f35c6f52a9f3b401f4d.ctex"]
+source_file="res://assets/textures/lofi_char.png"
+dest_files=["res://.godot/imported/lofi_char.png-07f0c9f64604f5f20358d0bc44ddc32d.ctex"]
 
 [params]
 

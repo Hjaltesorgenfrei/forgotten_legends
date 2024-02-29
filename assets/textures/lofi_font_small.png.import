@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cpojxjmek8scb"
-path="res://.godot/imported/lofi_halls.png-37cecf70f66c9ef4343d3fa21658b364.ctex"
+uid="uid://dnctcuhst7o65"
+path="res://.godot/imported/lofi_font_small.png-de016de50edbaf20e17ff2778e2f254d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://textures/lofi_halls.png"
-dest_files=["res://.godot/imported/lofi_halls.png-37cecf70f66c9ef4343d3fa21658b364.ctex"]
+source_file="res://assets/textures/lofi_font_small.png"
+dest_files=["res://.godot/imported/lofi_font_small.png-de016de50edbaf20e17ff2778e2f254d.ctex"]
 
 [params]
 

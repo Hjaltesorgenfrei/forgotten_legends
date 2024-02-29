@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dncpa4q1biho1"
-path="res://.godot/imported/expedition_rl.png-af79e7a1db93f34a7c6d274f8dad7402.ctex"
+uid="uid://bwt8hi081ktc7"
+path="res://.godot/imported/lofi_obj_packB.png-b85ab0bdf68fadc809e3c98d23552f8d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://textures/expedition_rl.png"
-dest_files=["res://.godot/imported/expedition_rl.png-af79e7a1db93f34a7c6d274f8dad7402.ctex"]
+source_file="res://assets/textures/lofi_obj_packB.png"
+dest_files=["res://.godot/imported/lofi_obj_packB.png-b85ab0bdf68fadc809e3c98d23552f8d.ctex"]
 
 [params]
 

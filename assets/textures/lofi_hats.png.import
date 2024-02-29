@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c0e0rgs13ed47"
-path="res://.godot/imported/lofi_char.png-aae93da7c605133c1048fd45cc68eecf.ctex"
+uid="uid://cfrgvdicdow22"
+path="res://.godot/imported/lofi_hats.png-30131147543685a82206c2948418f8cb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://textures/lofi_char.png"
-dest_files=["res://.godot/imported/lofi_char.png-aae93da7c605133c1048fd45cc68eecf.ctex"]
+source_file="res://assets/textures/lofi_hats.png"
+dest_files=["res://.godot/imported/lofi_hats.png-30131147543685a82206c2948418f8cb.ctex"]
 
 [params]
 

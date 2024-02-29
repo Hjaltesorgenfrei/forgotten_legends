@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://k55isw8d4shq"
-path="res://.godot/imported/lofi_interface.png-ee08ae4d540b203f805c215e54e0b9f0.ctex"
+uid="uid://dm0bu50n4kg6d"
+path="res://.godot/imported/hell_character.png-2f8bb8ab9915daf86181f5077bd5bf12.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://textures/lofi_interface.png"
-dest_files=["res://.godot/imported/lofi_interface.png-ee08ae4d540b203f805c215e54e0b9f0.ctex"]
+source_file="res://assets/textures/hell_character.png"
+dest_files=["res://.godot/imported/hell_character.png-2f8bb8ab9915daf86181f5077bd5bf12.ctex"]
 
 [params]
 

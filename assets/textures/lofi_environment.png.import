@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cgptjs7vj30ox"
-path="res://.godot/imported/lofi_dungeon_features.png-b45d6785ac072d3f81dd15351141a8c7.ctex"
+uid="uid://c7oo8j8fq2kct"
+path="res://.godot/imported/lofi_environment.png-0dc225cade64c4ccbaba85d9e93a360b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://textures/lofi_dungeon_features.png"
-dest_files=["res://.godot/imported/lofi_dungeon_features.png-b45d6785ac072d3f81dd15351141a8c7.ctex"]
+source_file="res://assets/textures/lofi_environment.png"
+dest_files=["res://.godot/imported/lofi_environment.png-0dc225cade64c4ccbaba85d9e93a360b.ctex"]
 
 [params]
 
