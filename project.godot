@@ -29,6 +29,7 @@ DSP/dsp_buffer_count=4
 [application]
 
 config/name="Forgotten Legends"
+run/main_scene="res://TestScene.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://icon.svg"
 
@@ -46,5 +47,6 @@ enabled=PackedStringArray("res://addons/fmod/plugin.cfg")
 
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
