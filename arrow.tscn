@@ -4,3 +4,4 @@
 
 [node name="Arrow" type="CharacterBody2D"]
 script = ExtResource("1_v8ja4")
+arrow_texture = 4
