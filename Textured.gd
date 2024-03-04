@@ -1,9 +1,10 @@
-extends Node2D
+extends CharacterBody2D
 
 @export var column = 0;
 @export var max_columns = 15;
 @export var row = 0;
 @export var max_rows = 15;
+@export var move_speed = 400.0;
 var atlas = AtlasTexture.new()
 
 # Called when the node enters the scene tree for the first time.
@@ -19,6 +20,11 @@ func _ready():
 	add_child(sprite)
 	pass # Replace with function body.
 
+func _physics_process(delta):
+	var direction = Input.get_vector("move_left", "move_right", "move_up", "move_down")
+	velocity = direction * move_speed
+
+	move_and_slide()
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
@@ -41,15 +47,3 @@ func _process(delta):
 				row = max_rows
 		var region = Rect2(Vector2(column * 8, row * 8), Vector2(8, 8))
 		atlas.region = region
-
-	# Use arrow keys to move the sprite
-	if Input.is_action_pressed("move_up"):
-		position.y -= 1
-	if Input.is_action_pressed("move_down"):
-		position.y += 1
-	if Input.is_action_pressed("move_left"):
-		position.x -= 1
-	if Input.is_action_pressed("move_right"):
-		position.x += 1
-
-	pass
